@@ -64,8 +64,8 @@ article h3 {
 	}
 }
 
-
-.pics{
+/* resume  */
+.resume2{
 	display: flex;
 	justify-content: space-between;
 }

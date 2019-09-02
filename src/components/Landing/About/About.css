@@ -7,4 +7,11 @@
 
 .about h2 {
 	margin-bottom: 0;
+
+}
+
+.callout-about {
+	background-image: url('./wadirum.jpeg');
+	background-position: center;
+	height: 75vh;
 }

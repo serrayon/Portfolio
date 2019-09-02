@@ -1,10 +1,11 @@
-import React, { Component } from 'react';
+import React from 'react';
+
 
 const Contact = () => {
     return (
       <section id="contact">
         <div className="wrap">
-        <h2>Get in Touch</h2>
+        <h2></h2>
           <form className="contact">
             <input type="text" placeholder="Full Name" className="col-third" />
             <input type="email" placeholder="Email" className="col-third" />
@@ -18,3 +19,5 @@ const Contact = () => {
 }
 
 export default Contact;
+
+

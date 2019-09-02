@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Landing from '../Landing';
-
+import sunset from './sunset.jpeg'
 import './Header.css';
 
 const Header = () => {
@@ -8,7 +8,7 @@ const Header = () => {
       <header className="vertical-center header-landing">
         <div>
           <h1><a href="/">Octavio Serrano</a></h1>
-          <h2>Web Dev</h2>
+          <h2></h2>
         </div>
       </header>
     )

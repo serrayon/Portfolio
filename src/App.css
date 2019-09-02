@@ -295,7 +295,7 @@ input, textarea {
 Footer
 ------------------------------------------- */
 footer {
-	background-color: #CDF3F6;
+	background-color: whitesmoke;
 	overflow: auto;
 }
 
@@ -395,4 +395,13 @@ Media Queries
 	footer input {
 		margin-right: 0;
 	}
+}
+
+/* h3 in archive*/
+
+.herokuOne {
+	margin-bottom: 5px;
+}
+.herokuTwo {
+	margin-bottom: 10px;
 }

@@ -1,6 +1,7 @@
 .header-landing {
-	/* background-image: url(./home_header_bg.jpg); */
-	background-color: salmon;
+	background-image: url(./sunset.jpeg);
+	/* background-color: salmon; */
+	background-position: center;
 	background-attachment: fixed;
 	height: 100vh;
 }
