@@ -1,12 +1,27 @@
 import React, { Component} from 'react';
-import Picture7 from './Pictures/blog_1.jpg';
-import Picture8 from './Pictures/blog_2.jpg';
-import Picture9 from './Pictures/about.jpg';
+import Picture7 from './Pictures/0001.jpg';
+import Picture8 from './Pictures/0002.jpg';
+// import Picture9 from './Pictures/about.jpg';
 import './Main.css';
 
 const Main = () => {
         return (
-            <div class="wrap grid-wrapper">
+          <>
+					<div className="pics">
+						<div>
+						<img className='page-one' src={Picture7} alt="resume page one" />
+						</div>
+						<div><img className='page-two' src={Picture8} alt="resume page two" /></div>
+						</div>
+					</>  
+        )
+}
+
+export default Main;
+
+
+
+{/* <div class="wrap grid-wrapper">
                 <section>
                     <article>
                         <h3>11/23/2016</h3>
@@ -34,8 +49,4 @@ const Main = () => {
 			</ul>
 		</aside>
 		
-	</div>
-        )
-}
-
-export default Main;
+	</div> */}

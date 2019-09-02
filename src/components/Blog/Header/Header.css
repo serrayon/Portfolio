@@ -9,8 +9,9 @@ header h2 {
 }
 
 .header-blog {
-    background-image: url(./blog_header_bg.jpg);
-    /* background-image: url('https://i.imgur.com/Yf5VMIt.jpg'); */
+    /* background-image: url(./blog_header_bg.jpg); */
+		/* background-image: url('https://i.imgur.com/Yf5VMIt.jpg'); */
+	background-color: salmon;
 	background-size: cover;
 	background-position: center;
 

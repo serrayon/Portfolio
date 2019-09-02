@@ -12,7 +12,7 @@ function Landing() {
       <Header />
       <Archive />
       <About />
-      <Gallery />
+      {/* <Gallery /> */}
       <Contact />
       <Footer />
     </div>

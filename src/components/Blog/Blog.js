@@ -10,7 +10,7 @@ function Blog() {
     <div className="App">
       <Header />
       <Main />
-      <Comment />
+      {/* <Comment /> */}
       <Footer />
     </div>
   );

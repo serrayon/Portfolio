@@ -63,3 +63,9 @@ article h3 {
 		width: 100%;
 	}
 }
+
+
+.pics{
+	display: flex;
+	justify-content: space-between;
+}
