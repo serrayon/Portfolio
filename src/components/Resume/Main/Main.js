@@ -8,8 +8,8 @@ const Main = () => {
         return (
           <>
 					
-					<div className="resume2">
-						<div id='resume'>
+					<div id='resume' className="resume2">
+						<div>
 						<img className='page-one' src={Picture1} alt="resume page one" />
 						</div>
 						<div><img className='page-two' src={Picture2} alt="resume page two" /></div>

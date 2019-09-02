@@ -5,7 +5,7 @@ import Footer from './Footer/Footer';
 import Main from './Main/Main';
 
 
-function Blog() {
+function Resume() {
   return (
     <div className="App">
       <Header />
@@ -16,4 +16,4 @@ function Blog() {
   );
 }
 
-export default Blog;
+export default Resume;
