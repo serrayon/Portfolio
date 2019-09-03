@@ -4,14 +4,15 @@ import './Contact.css'
 const Contact = () => {
   return (
     <>
-      <div id="contact" className="card">
-        <img src="https://d13ezvd6yrslxm.cloudfront.net/wp/wp-content/images/Akira-Remake-700x300.jpg" className="card" alt="contact info"/>
+      {/* <div id="contact" className="card"> */}
+        {/* <img src="https://d13ezvd6yrslxm.cloudfront.net/wp/wp-content/images/Akira-Remake-700x300.jpg" className="card" alt="contact info"/> */}
         <div id="contact" className="card-body">
           <h3 className="card-title">Octavio Serrano</h3>
-          <p className="card-text">Contact me directly at : (415)690-9507 serrayon81@gmail.com</p>
+          <p className="card-text">Contact me at : 415.690.9507</p>
+          <p className="card-text">Email: serrayon81@gmail.com</p>
         </div>
 
-      </div>
+      {/* </div> */}
 
     </>
   )
