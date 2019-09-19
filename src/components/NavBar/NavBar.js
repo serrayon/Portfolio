@@ -15,7 +15,9 @@ const NavBar = props => {
         <li><a href="/#projects">Projects</a></li>
         {/* <li><a href="/#wtf">Resume</a></li> */}
         <li><a href="/#contact">Contact</a></li>
-        <Link to={'/resume'} onClick={() => props.history.push("/resume")}>Resume</Link>
+        {/* <Link to={'/resume'} onClick={() => props.history.push("/resume")}>Resume</Link> */}
+        {/* <Link to={'/resume'} onClick={() => props.history.push("/resume")}>Resume</Link> */}
+        <li><a href="/resume">Resume</a></li>
         {/* <li><a href="blog.html">Blog</a></li> */}
         {/* <li><a href="/#blog-header">Blog</a></li> */}
         {/* <Link to={'/#contact'}>Contact</Link> */}
