@@ -5,7 +5,7 @@ import project2 from './world.png';
 import project3 from './twitter.png';
 
 const Projects = () => {
-    // console.log(this.props)
+  
     return (
       <section id='projects'>
 <h2>Projects</h2>
@@ -15,7 +15,7 @@ const Projects = () => {
   <h3>Black Jack</h3>
     <img src={project1} alt="Landing screen for game" />
     <div> 
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel voluptate eos nisi necessitatibus aperiam dolorem ut eveniet quae dolores quisquam nulla, cumque tenetur blanditiis modi tempora excepturi error veniam suscipit dicta praesentium reiciendis illo obcaecati odit inventore minima. Pariatur facilis, excepturi! Facilis cumque dicta reiciendis nam accusantium cum pariatur sunt accusamus voluptas eaque sapiente totam dolorum nulla eligendi molestiae, quidem odit repellat temporibus quae ipsa aut placeat modi sint doloribus. Ipsum nisi veritatis, facere doloribus. Nihil veritatis corporis eaque odio.</p>
+      <p>Developed a Blackjack web game including deck of cards concept with correct number and values in standard card deck, shuffle and deal functionality, and game win/loss logic.</p>
       <a href="https://github.com/serrayon/Black-Jack" >View Source</a>
     </div>
   </article>
@@ -24,7 +24,9 @@ const Projects = () => {
     <img src={project2} alt="Login page for World of Literature" />
     <div>
       <a href="https://worldofliteratureabcd.herokuapp.com/">Heroku Link</a>
-      <p>Maiores qui doloremque suscipit molestias. Saepe omnis dolore, ipsum voluptatem quisquam eveniet repellat! Eius in vero, cum dolorem ad earum, dignissimos quasi qui obcaecati, minima, esse aliquid beatae. Placeat, adipisci temporibus suscipit neque assumenda earum perferendis autem voluptatem nostrum ipsa porro, voluptas cumque ullam et reiciendis deserunt eos aspernatur esse laudantium cum natus cupiditate nesciunt. Nostrum doloremque odio maiores, quis architecto vero unde error, obcaecati ullam esse soluta et incidunt. Totam quaerat unde doloribus inventore sapiente molestiae, rem? Dolor, est.</p>
+      <p>Developed and deployed a database of authors from around the world with CRUD functionality
+Technologies used: JavaScript, HTML, CSS, Mongoose, Express, Node.js, Heroku, my love of international literature
+</p>
       <a  href="https://github.com/serrayon/project-1" >View Source</a>
     </div>
   </article>
