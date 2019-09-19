@@ -45,7 +45,7 @@ body{
 }
 
 .card-text {
-  text-align: right;
+  /* text-align: right; */
   position: relative;
   z-index: 2;
   padding-right: .3em;

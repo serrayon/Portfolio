@@ -21,7 +21,7 @@ const Contact = () => {
          <div id="contact" className="card-body">
            <h3 className="card-title">Octavio Serrano</h3>
            <p className="card-text">Contact me at : 415.690.9507</p>
-           <p className="card-text">Email: serrayon81@gmail.com</p>
+           <a href='mailto:serrayon81@gmail.com' className="card-text">Email: serrayon81@gmail.com</a>
          </div>
 
       {/* </div> */}
