@@ -7,7 +7,7 @@ const Footer = () => {
                     <div class="social-links">
                         {/* <a href=""><i class="fa fa-facebook-square" aria-hidden="true"></i></a> */} 
                         <a href="https://github.com/serrayon"><i class="fa fa-github" aria-hidden="true"></i></a>
-                        <a href="https://www.linkedin.com/in/octavio-serrano-8b964b183/"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                        <a href="https://www.linkedin.com/in/octavio-serrano/"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
                     </div>
                 </div>
 
