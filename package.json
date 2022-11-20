@@ -1,16 +1,16 @@
 {
   "name": "monument-react",
   "version": "0.1.0",
+  "engines": {
+    "node": "18.x"
+  },
   "private": true,
   "dependencies": {
     "history": "^4.9.0",
     "react": "^16.9.0",
     "react-dom": "^16.9.0",
     "react-router-dom": "^5.0.1",
-    "react-scripts": "3.1.1",
-    "engines": {
-    "node": "18.12"
-  }
+    "react-scripts": "^5.0.1"
   },
   "scripts": {
     "start": "react-scripts start",
