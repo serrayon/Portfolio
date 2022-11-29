@@ -24,7 +24,7 @@ const Projects = () => {
     <img src={project2} alt="Login page for World of Literature" />
     <div>
     
-      <p className='p3'>Automated the sign in process for the Foot Locker web site. Using Python,Selenium,Chrome WebDriver. Next challenge is to automate the capthcka process.
+      <p className='p3'>Automated the sign in process for the Foot Locker web site. Using Python, Selenium, Chrome WebDriver. Next challenge is to automate the capchka process.
 </p>
       <a  href="https://github.com/serrayon/footLocker" >View Source</a>
     </div>
