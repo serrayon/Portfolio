@@ -1,7 +1,7 @@
 import React from 'react';
 
 import project1 from './black_jack.png';
-import project2 from './world.png';
+import project2 from './footLocker.png';
 import project3 from './twitter.png';
 
 const Projects = () => {
@@ -20,14 +20,13 @@ const Projects = () => {
     </div>
   </article>
   <article className="col-third">
-  <h3 className='herokuOne'>World of Literature</h3>
+  <h3 className='herokuOne'>Foot Locker Automated</h3>
     <img src={project2} alt="Login page for World of Literature" />
     <div>
-      <a href="https://worldofliteratureabcd.herokuapp.com/">Heroku Link</a>
-      <p className='p3'>Developed and deployed a database of authors from around the world with CRUD functionality
-Technologies used: JavaScript, HTML, CSS, Mongoose, Express, Node.js, Heroku, my love of international literature
+    
+      <p className='p3'>Automated the sign in process for the Foot Locker web site. Using Python,Selenium,Chrome WebDriver. Next challenge is to automate the capthcka process.
 </p>
-      <a  href="https://github.com/serrayon/project-1" >View Source</a>
+      <a  href="https://github.com/serrayon/footLocker" >View Source</a>
     </div>
   </article>
   <article className="col-third">

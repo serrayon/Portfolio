@@ -7,7 +7,7 @@ const About = () => {
       <section id="about" className="callout-about">
         <article className="wrap">
           <h2>On a new path...</h2>
-          <p className='aboutp'>I have always been interested in web development, and recently completed the 3 month Software Engineering Immersive program at General Assembly in San Francisco. In the last 3 months I have become familiar with full stack technologies. I am now on the market and actively seeking a junior web development position.</p>
+          <p className='aboutp'>A natural curiosity for how things work, and interest in tech, has led me to study computer science. A mixture of self taught, and boot camp style programs has inspired me to focus on software quality assurance. In the last year I applied my skills to manual testing. I am now on the market and actively seeking a quality engineer role.</p>
           <p> </p>
           <p></p>
         </article>
