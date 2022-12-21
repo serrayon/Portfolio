@@ -1,6 +1,6 @@
 import React from 'react';
 
-import project1 from './black_jack.png';
+import project1 from './PortSwigger.png';
 import project2 from './footLocker.png';
 import project3 from './twitter.png';
 
@@ -12,16 +12,16 @@ const Projects = () => {
 
 <div className="grid-wrapper articles">
   <article className="col-third">
-  <h3>Black Jack</h3>
-    <img src={project1} alt="Landing screen for game" />
+  <h3>CSRF Vulnerabilities PortSwigger</h3>
+    <img src={project1} alt="Landing screen for site" />
     <div> 
-      <p className='p3'>Developed a Blackjack web game including deck of cards concept with correct number and values in standard card deck, shuffle and deal functionality, and game win/loss logic.</p>
-      <a href="https://github.com/serrayon/Black-Jack" >View Source</a>
+      <p className='p3'>I have used Burp Suite to create HTML scripts that exploit cross-site request forgery (CSRF) vulnerabilities in web applications. By creating scripts that simulate these attacks, I was able to test the security of web applications and identify potential vulnerabilities that needed to be addressed. .</p>
+      <a href="https://github.com/serrayon/CSRF-" >View Source</a>
     </div>
   </article>
   <article className="col-third">
   <h3 className='herokuOne'>Foot Locker Automated</h3>
-    <img src={project2} alt="Login page for World of Literature" />
+    <img src={project2} alt="Landing screen FootLocker" />
     <div>
     
       <p className='p3'>Automated the sign in process for the Foot Locker web site. Using Python, Selenium, Chrome WebDriver. Next challenge is to automate the capchka process.
