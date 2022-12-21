@@ -32,7 +32,7 @@ const Projects = () => {
   <article className="col-third">
   <h3 className="herokuTwo">Twitter clone</h3>
     <img src={project3} alt="Login page for Twitter clone" />
-    <a href="https://teamtwitterga.herokuapp.com/">Heroku Link</a>
+    <a type='hidden' href="https://teamtwitterga.herokuapp.com/">Heroku Link</a>
     <p className='p3'>Built during a 5 day sprint using Django and Python.  Achieved full CRUD capabilities, lacking some main functionality that would be found on the Twitter platform, but for a 5 day sprint it was great to accomplish the basics.</p>
     <a href="https://github.com/serrayon/Twitter" >View Source</a>
   </article>
