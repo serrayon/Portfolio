@@ -15,7 +15,7 @@ const Projects = () => {
   <h3>CSRF Vulnerabilities PortSwigger</h3>
     <img src={project1} alt="Landing screen for site" />
     <div> 
-      <p className='p3'>I have used Burp Suite to create HTML scripts that exploit cross-site request forgery (CSRF) vulnerabilities in web applications. By creating scripts that simulate these attacks, I was able to test the security of web applications and identify potential vulnerabilities that needed to be addressed. .</p>
+      <p className='p3'>I have used Burp Suite to create HTML scripts that exploit cross-site request forgery (CSRF) vulnerabilities in web applications. By creating scripts that simulate these attacks, I was able to test the security of web applications and identify potential vulnerabilities that needed to be addressed.</p>
       <a href="https://github.com/serrayon/CSRF-" >View Source</a>
     </div>
   </article>
