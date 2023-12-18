@@ -11,7 +11,7 @@
 }
 
 .callout-about {
-	/* background-image: url('./whitney.jpeg'); */
+	background-image: url('./whitney.jpeg'); 
 	background-image: linear-gradient(to bottom, whitesmoke,white);
 	background-color: whitesmoke;
 	background-position: center;

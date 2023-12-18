@@ -8,7 +8,6 @@ const Header = () => {
       <header className="vertical-center header-landing">
         <div>
           <h1><a href="/">Octavio Serrano</a></h1>
-          <img src={sunset} alt="Sunset" />
           <h2></h2>
         </div>
       </header>
