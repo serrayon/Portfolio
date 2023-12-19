@@ -101,14 +101,11 @@ section {
 }
 
 .grid-wrapper {
-	max-width: 1200px; /* Adjust the maximum width as needed */
-	width: 100%; /* Use 100% width within the maximum width */
-	margin: 0 auto; /* Center the wrapper horizontally */
-	display: flex;
-	flex-direction: row;
-	flex-wrap: wrap;
-	justify-content: space-between;
-  }
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
 
 .col-third {
 	width: 32%;
