@@ -10,7 +10,7 @@ header h2 {
 
 .header-blog {
     /* background-image: url(./blog_header_bg.jpg); */
-		background-image: url('./wadirum.jpeg');
+	background-image: url('./wadirum.jpeg');
 	/* background-color: salmon; */
 	background-size: cover;
 	background-position: center;
@@ -19,8 +19,8 @@ header h2 {
 	padding-bottom: 2.5rem; */
 
 	/* If there is a background-image */
-	/* height: 350px; */
-	/*height:100vh;*/
+	height: 350px; 
+	height:100vh;
 	margin-bottom: 48px;
 	margin-bottom: 3rem;
 
