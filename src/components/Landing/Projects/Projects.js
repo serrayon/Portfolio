@@ -1,7 +1,7 @@
 import React from 'react';
 
-import project1 from './PortSwigger.png';
-import project2 from './footLocker.png';
+import project1 from './black_jack.png';
+import project2 from './world.png';
 import project3 from './twitter.png';
 
 const Projects = () => {
@@ -12,27 +12,28 @@ const Projects = () => {
 
 <div className="grid-wrapper articles">
   <article className="col-third">
-  <h3>CSRF Vulnerabilities PortSwigger</h3>
-    <img src={project1} alt="Landing screen for site" />
+  <h3>Black Jack</h3>
+    <img src={project1} alt="Landing screen for game" />
     <div> 
-      <p className='p3'>I have used Burp Suite to create HTML scripts that exploit cross-site request forgery (CSRF) vulnerabilities in web applications. By creating scripts that simulate these attacks, I was able to test the security of web applications and identify potential vulnerabilities that needed to be addressed.</p>
-      <a href="https://github.com/serrayon/CSRF-" >View Source</a>
+      <p className='p3'>Developed a Blackjack web game including deck of cards concept with correct number and values in standard card deck, shuffle and deal functionality, and game win/loss logic.</p>
+      <a href="https://github.com/serrayon/Black-Jack" >View Source</a>
     </div>
   </article>
   <article className="col-third">
-  <h3 className='herokuOne'>Foot Locker Automated</h3>
-    <img src={project2} alt="Landing screen FootLocker" />
+  <h3 className='herokuOne'>World of Literature</h3>
+    <img src={project2} alt="Login page for World of Literature" />
     <div>
-    
-      <p className='p3'>Automated the sign in process for the Foot Locker web site. Using Python, Selenium, Chrome WebDriver. Next challenge is to automate the capchka process.
+      <a href="https://worldofliteratureabcd.herokuapp.com/">Heroku Link</a>
+      <p className='p3'>Developed and deployed a database of authors from around the world with CRUD functionality
+Technologies used: JavaScript, HTML, CSS, Mongoose, Express, Node.js, Heroku, my love of international literature
 </p>
-      <a  href="https://github.com/serrayon/footLocker" >View Source</a>
+      <a  href="https://github.com/serrayon/project-1" >View Source</a>
     </div>
   </article>
   <article className="col-third">
   <h3 className="herokuTwo">Twitter clone</h3>
     <img src={project3} alt="Login page for Twitter clone" />
-    
+    <a href="https://teamtwitterga.herokuapp.com/">Heroku Link</a>
     <p className='p3'>Built during a 5 day sprint using Django and Python.  Achieved full CRUD capabilities, lacking some main functionality that would be found on the Twitter platform, but for a 5 day sprint it was great to accomplish the basics.</p>
     <a href="https://github.com/serrayon/Twitter" >View Source</a>
   </article>
@@ -42,9 +43,3 @@ const Projects = () => {
 }
 
 export default Projects;
-
-//<a href="https://teamtwitterga.herokuapp.com/">Heroku Link</a> belongs on 35 create repo and push to heroku personal account
-
-
-
-
