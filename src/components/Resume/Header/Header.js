@@ -1,5 +1,6 @@
 import React from 'react';
-
+import wadirum from './whitney.jpeg'
+import './Header.css';
 
 import './Header.css';
 

@@ -10,10 +10,12 @@ header h2 {
 
 .header-blog {
     /* background-image: url(./blog_header_bg.jpg); */
-		background-image: url('./wadirum.jpeg');
+		background-image: url('./whitney.jpeg');
 	/* background-color: salmon; */
 	background-size: cover;
 	background-position: center;
+	background-repeat: no-repeat;
+
 
 /* 	padding-top: 6rem;
 	padding-bottom: 2.5rem; */
