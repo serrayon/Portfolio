@@ -1,7 +1,7 @@
 import React from 'react';
 
 import project1 from './black_jack.png';
-import project2 from './world.png';
+import project2 from './algorithm_python.png';
 import project3 from './twitter.png';
 
 const Projects = () => {
@@ -21,20 +21,18 @@ const Projects = () => {
     </div>
   </article>
   <article className="col-third">
-  <h3 className='herokuOne'>World of Literature</h3>
-    <img src={project2} alt="Login page for World of Literature" />
+  <h3 className='herokuOne'>Algorithm for file updates in Python</h3>
+    <img src={project2} alt="Algorithm for file updates in Python" />
     <div>
-      <a href="https://worldofliteratureabcd.herokuapp.com/">Heroku Link</a>
-      <p className='p3'>Developed and deployed a database of authors from around the world with CRUD functionality
-Technologies used: JavaScript, HTML, CSS, Mongoose, Express, Node.js, Heroku, my love of international literature
+      <p className='p3'>Python script automates tedious workflow, ensuring that only approved IP addresses are granted permission to access a network. This script accelerates the process, minimizing the risk of human error.
 </p>
-      <a  href="https://github.com/serrayon/project-1" >View Source</a>
+      <a  href="https://github.com/serrayon/ip_algo" >View Source</a>
     </div>
   </article>
   <article className="col-third">
   <h3 className="herokuTwo">Twitter clone</h3>
     <img src={project3} alt="Login page for Twitter clone" />
-    <a href="https://teamtwitterga.herokuapp.com/">Heroku Link</a>
+    
     <p className='p3'>Built during a 5 day sprint using Django and Python.  Achieved full CRUD capabilities, lacking some main functionality that would be found on the Twitter platform, but for a 5 day sprint it was great to accomplish the basics.</p>
     <a href="https://github.com/serrayon/Twitter" >View Source</a>
   </article>
