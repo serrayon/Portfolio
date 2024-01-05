@@ -15,6 +15,7 @@ const Projects = () => {
   <h3>Black Jack</h3>
     <img src={project1} alt="Landing screen for game" />
     <div> 
+    <a href="https://master.d2iw13smmc9pb.amplifyapp.com/" target="_blank">Give it a go!</a>
       <p className='p3'>Developed a Blackjack web game including deck of cards concept with correct number and values in standard card deck, shuffle and deal functionality, and game win/loss logic.</p>
       <a href="https://github.com/serrayon/Black-Jack" >View Source</a>
     </div>
